@@ -54,7 +54,6 @@ body::-webkit-scrollbar-button {
 }
 
 /* navbar */
-/* TODO underline transition on hover */
 
 #navbar {
   position: fixed;
@@ -72,7 +71,11 @@ body::-webkit-scrollbar-button {
 }
 
 #navbar li a {
-  color: #fafafa;
+  color: #5db7de;
+}
+
+#navbar li a:hover {
+  text-decoration: underline;
 }
 
 /* landing page */
