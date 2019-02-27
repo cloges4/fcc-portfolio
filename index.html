@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Charles Loges IV Web Developer North Carolina</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:300" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -21,40 +22,47 @@
         <h1>Hello</h1>
         <p>I am Charles</p>
         <p>a husband, father, & web developer.</p>
-        <button class="btn" type="button">Lets Talk</button>
-        <!-- TODO button goes here linking to contact -->
+        <a class="btn" href="#contact-section">Lets Talk</a>
       </header>
     </section>
     <section id="project-section">
-      <!-- IDEA add <hr between the h2 and p> -->
       <header id="project-header">
         <h2>My Work</h2>
+        <hr />
         <p>Building and growing one project at a time.</p>
       </header>
       <article id="projects">
-        <!-- REPlACE these are temp boxes for placeholding only -->
-        <!-- IDEA make cards with btn links to live project and repo-->
-        <!-- TODO img need alt attributes -->
-        <div class="project-tile"><img src="img/cookie-of-month.jpg" alt="" /></div>
-        <div class="project-tile"><img src="img/survery-form.jpg" alt="" /></div>
-        <div class="project-tile"><img src="img/tech-doc.jpg" alt="" /></div>
-        <div class="project-tile"><img src="img/tribute-page.jpg" alt="" /></div>
+        <!-- TODO make cards with btn link to live project-->
+        <!-- TODO make cards hover transistion with link and project descreiption -->
+        <aside class="project-title" id="cookie">
+          <img src="img/cookie-of-month.jpg" alt="" />
+        </aside>
+        <aside class="project-title" id="tech-doc">
+          <img src="img/tech-doc.jpg" alt="" />
+        </aside>
+        <aside class="project-title" id="survey">
+          <img src="img/survery-form.jpg" alt="" />
+        </aside>
+        <aside class="project-title" id="tribute">
+          <img src="img/tribute-page.jpg" alt="" />
+        </aside>
       </article>
     </section>
-    <section class="contact-section">
+    <section id="contact-section">
       <header id="contact-header">
         <h2>Lets Talks</h2>
+        <hr />
         <p>Feel free to contact me below</p>
       </header>
-      <!-- TODO add links to social -->
       <aside id="social-icons">
-        <a href=""><img src="img/twitter.svg" alt="twitter icon"/></a>
-        <a href=""><img src="img/linkedin.svg" alt="linkedin icon"/></a>
-        <a href=""><img src="img/github.svg" alt="github icon"/></a>
+        <a href="https://twitter.com/cloges4"><img src="img/twitter.svg" alt="twitter icon"/></a>
+        <a href="https://www.linkedin.com/in/charles-loges-iv-9a534956/"
+          ><img src="img/linkedin.svg" alt="linkedin icon"
+        /></a>
+        <a href="https://github.com/cloges4"><img src="img/github.svg" alt="github icon"/></a>
       </aside>
     </section>
     <footer>
-      <!-- TODO look for semantic tag -->
       <p>Charles Loges IV 2019</p>
     </footer>
 
