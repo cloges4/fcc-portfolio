@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+/* TODO style scrollbar */
+
 body {
   margin: 0;
   padding: 0;
@@ -11,6 +13,82 @@ body {
 
 img {
   max-width: 100%;
-  display: block;
   height: auto;
+}
+
+/* navbar */
+
+#navbar {
+  position: fixed;
+  background-color: tomato;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#navbar > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* landing page */
+
+/* TODO bg img or color? */
+
+#welcome-section {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-content {
+  text-align: center;
+}
+
+/* project */
+
+#project-header {
+  text-align: center;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: 15px 1fr 15px;
+  grid-auto-rows: minmax(300px, auto);
+  justify-items: center;
+}
+
+#projects > * {
+  grid-column: 2;
+  min-width: 0;
+}
+
+/* contact */
+/* TODO needs layout work */
+
+#contact-header {
+  text-align: center;
+}
+
+#social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+#social-icons > a img {
+  width: 75px;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  background-color: tomato;
+  padding: 20px 0;
+  margin: 0;
+}
+
+footer p {
+  margin: 0;
 }
