@@ -28,6 +28,11 @@ h3 {
   font-weight: 100;
 }
 
+#project-header h2,
+#contact-header h2 {
+  font-size: 2rem;
+}
+
 hr {
   width: 140px;
   height: 5px;
@@ -139,7 +144,7 @@ body::-webkit-scrollbar-button {
 /* project */
 
 #project-header {
-  margin-top: 75px;
+  margin-top: 125px;
   text-align: center;
 }
 
@@ -239,7 +244,7 @@ body::-webkit-scrollbar-button {
 
 #contact-header {
   text-align: center;
-  margin-bottom: 100px;
+  margin: 125px 0;
 }
 
 #contact-header p {
