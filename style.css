@@ -275,3 +275,37 @@ footer p {
   color: #fafafa;
   margin: 0;
 }
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+  #navbar li a {
+    font-size: 1.5rem;
+  }
+
+  .project-tile {
+    width: 500px;
+    height: 400px;
+    grid-template-columns: 20px 1fr 20px 1fr 20px;
+    grid-template-rows: auto;
+    grid-column-gap: 5px;
+    grid-template-areas:
+      ". header header header ."
+      ". img-area . list ."
+      ". btn-repo . btn-live .";
+  }
+
+  .project-tile ul {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+
+  .project-tile img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .card-header h3 {
+    font-size: 1.5rem;
+  }
+}
